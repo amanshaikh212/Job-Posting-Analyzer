@@ -29,7 +29,7 @@ def read_root():
     """
     A simple endpoint to confirm the API is running.
     """
-    return {"message": "Welcome to the Job Posting Analyzer API. Visit /docs for documentation"}
+    return {"message": "Welcome to the Job Posting Analyzer API. Visit /docs for documentation."}
 
 @app.get(
     "/analyze_jobs",
